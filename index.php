@@ -179,8 +179,8 @@
                 <div class="row">
                   <div class="col-md-3">
                       <div class="text-center review-photo"><img src="assets/img/review1.png"></div>
-                      <div class="text-center review-name">Joel C.</div>
-                      <div class="text-center review-address">Little Rock, AK</div>
+                      <div class="text-center review-name">Mitchell M.</div>
+                      <div class="text-center review-address">Cherry Hill, NJ</div>
                   </div>
                   <div class="col-md-9">
                       <div class="review-position">Family Law &nbsp;&nbsp;&nbsp;<img src="assets/img/stars.png"></div> 
@@ -193,12 +193,12 @@
 
                 <div class="row">
                   <div class="col-md-3">
-                      <div class="text-center review-photo"><img src="assets/img/review1.png"></div>
+                      <div class="text-center review-photo"><img src="assets/img/review2.png"></div>
                       <div class="text-center review-name">Joel C.</div>
                       <div class="text-center review-address">Little Rock, AK</div>
                   </div>
                   <div class="col-md-9">
-                      <div class="review-position">Family Law &nbsp;&nbsp;&nbsp;<img src="assets/img/stars.png"></div> 
+                      <div class="review-position">Job & Employment Law &nbsp;&nbsp;&nbsp;<img src="assets/img/stars.png"></div> 
                       <div class="review-testi">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</div>
                       <div class="review-read text-right">Read Review <img src="assets/img/book.png"></div></div>
                   </div>
