@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url('fonts/gotham/Gotham-Light.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url('fonts/gotham/Gotham-Medium.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('fonts/gotham/Gotham-Book.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'Gotham-BookIta';
+  src: url('fonts/gotham/Gotham-BookIta.otf') format("opentype");
+}
+
+
+body {
+  /*padding-top: 10px;*/
+  padding-bottom: 20px;
+}
+
+.navbar {
+	margin-bottom: 5px;
+}
+
+.jumbotron{
+	padding-top: 0;
+    /*padding-bottom: 0;*/
+    background: #032d6c url('../assets/img/bg.png') center bottom;
+}
+
+.jumbotron h1 {
+	font-family: 'Gotham-Light', sans-serif;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 32px;
+}
+
+.jumbotron h3 {
+	margin-top: 0px;
+	font-family: 'Gotham-Medium', sans-serif;
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.zipcategory {
+	margin-top: 15px;
+	font-family: 'Gotham-Medium', sans-serif;
+	color: #fff;
+}
+
+.othercategory{
+	font-family: 'Gotham-Book', sans-serif;
+	color: #fff;
+	font-size: 14px;
+}
+
+.othercategory a{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.othercategory a:hover{
+	text-decoration: none;
+}
+
+.clientreviews {
+	color:#fff;
+}
+
+.clientreviews h2{
+	margin-top: 0px;
+	font-family: 'Gotham-Book', sans-serif;
+	color: #fff;
+	font-size: 24px;
+}
+
+.review-name {
+	margin-top: 5px;
+	font-family: 'Gotham-Medium', sans-serif;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.review-address{
+	font-family: 'Gotham-Medium', sans-serif;
+	color: #dbdbdb;
+	font-size: 13px;
+}
+
+.review-position{
+	font-family: 'Gotham-Medium', sans-serif;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;	
+}
+
+.review-testi{
+	font-family: 'Gotham-BookIta', sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	color: #e4e4e4;
+	margin-top: 10px;
+}
+.review-read{
+	font-family: 'Gotham-Medium', sans-serif;
+	font-size: 12px;
+	color:#fbd243;
+	margin-top: 5px;
+}
+
+.review-hr {
+	height: 1px;
+	background: url('../assets/img/review-hr.png');
+	margin-top: 10px;
+}
+
+.footer-center{
+	color:#919aa2;
+	font-family: 'Gotham-Book', sans-serif;
+	font-size: 14px;
+}
+
+.footer-copyright {
+	margin-top: 50px;
+	font-size: 13px;
+}
+
+.footer-links {
+	margin-top: 20px;
+	color:#919aa2;
+}
+
+.footer-links ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.footer-links ul li{
+    display:inline;
+}
+.footer-links ul li:after { content: "  \00b7  "; }
+.footer-links ul li:last-child:after { content: ""; }
+.footer-links ul a{
+    display:inline-block;
+    padding:10px 10px;
+    color:#919aa2;
+    text-decoration: none;
+}
+.footer-links ul a:hover{
+	text-decoration: underline;
+}
+
+input.txtbox{
+	background: #fff url('../assets/img/step1.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+  	-moz-border-radius: 20px;
+ 	border-radius: 20px;
+    border:solid 1px #084382;
+    padding:30px 10px 30px 50px;
+}
+
+select.selCategory{
+	background: #fff url('../assets/img/step2.png') no-repeat left center;
+  	-moz-border-radius: 20px;
+ 	border-radius: 20px;
+    border:solid 1px #084382;
+    padding:10px 50px;
+    height: 60px;
+    color: #919aa2;
+}
+
+.modalbutton {
+	margin-top: 20px;
+}
+
+.btnfindalawyer {
+  	-moz-border-radius: 20px;
+ 	border-radius: 20px;
+    border:solid 1px #084382;
+    padding:10px 50px;	
+    background-color: #02377b;
+}
+
+.chkcategory{
+	margin-bottom: 5px;
+}
+
+.small-text {
+	font-size: 10px;
+	color: #919aa2;
+}
